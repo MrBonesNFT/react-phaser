@@ -1,0 +1,22 @@
+body {
+  background-color: #000000;    
+}
+
+canvas {
+  touch-action : none;
+  -ms-touch-action : none;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#phaser {
+  width: 600px;
+  height: 400px;
+  outline: 1px solid #3b98b0;
+}

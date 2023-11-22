@@ -1,0 +1,9 @@
+# workspace
+.vscode
+
+# dependencies
+node_modules
+
+# artifacts
+build
+coverage
