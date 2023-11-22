@@ -6,9 +6,9 @@ import './styles/phaser-styles.css'
 
 function App(): ReactElement {
   useEffect(() => {
-    const game = Game()
+    const game: Phaser.Game = Game()
 
-    return () => {
+    return (): void => {
       game.destroy(true)
     }
   }, [])
